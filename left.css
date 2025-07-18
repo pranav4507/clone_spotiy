@@ -1,0 +1,72 @@
+:root {
+    --content: #24232385;
+    --white: #ffffff;
+
+}
+
+.home {
+    background-color: var(--content);
+    height: 25vh;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+
+
+
+}
+
+span img {
+    height: 24px;
+   
+    filter: invert(1);
+
+}
+
+span{
+    display: flex;
+    
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px;
+
+}
+
+.library{
+    background-color: var(--content);
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding:  20px 0px;
+    position: relative;
+}
+
+.lib-foot{
+    display: flex;
+    font-size: 11px;
+    gap: 10px;
+    color: gray;
+    flex-wrap: wrap;
+    /* padding-left: 20px; */
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 20px;
+
+    
+}
+.create-lib{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+
+}

@@ -1,0 +1,126 @@
+:root {
+    --content: #24232385;
+    --white: #ffffff;
+    --text:#b3b3b3;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.container {
+    background-color: black;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    color: var(--white);
+
+}
+
+.left {
+    /* background-color: var(--content); */
+    width: 25vw;
+    height: 99vh;
+    color: var(--text);
+    /* padding: 5px */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.right {
+    background-color: var(--content);
+    width: 75vw;
+    height: calc(100vh-5px);
+    position: relative;
+    overflow: hidden;
+}
+
+.border {
+    border-radius: 7px;
+    border: none;
+
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.song-l{
+    padding: 20px 20px;
+}
+
+.card{
+    height: 230px;
+    width: 160px;
+    border-radius: 7px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+
+    &:hover{
+        background-color:var(--content);
+    }
+}
+
+.pst-img{
+    height:150px;
+    width: 100%;
+    background-color: black;
+    border-radius: 7px;
+    overflow: hidden;
+    object-fit: contain;
+    
+    
+}
+h4{
+    color: var(--white);
+}
+
+.card > p{
+    font-size: 12px;
+    text-overflow: clip;
+}
+
+
+
+#play-sng{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(43, 182, 43);
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 10px;
+    bottom: 70px;
+    
+
+}
+#play-sng:hover{
+
+    transform: scale(105%);
+    
+}
